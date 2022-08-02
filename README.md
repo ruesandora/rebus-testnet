@@ -54,7 +54,7 @@ rebusd keys add cüzdanismi
 ```
 rebusd tx staking create-validator \
 --amount=9900000arebus \
---pubkey=$(strided tendermint show-validator) \
+--pubkey=$(rebusd tendermint show-validator) \
 --moniker=RuesValidator \
 --chain-id=reb_3333-1 \
 --commission-rate="0.10" \
