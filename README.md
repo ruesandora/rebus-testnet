@@ -64,7 +64,6 @@ rebusd tx staking create-validator \
 --fees=250arebus \
 --gas=200000 \
 --from=rues \
---identity="128462B2F5F8552F" \
 --website="http://forum.rues.info/" \
 --details="https://linktr.ee/ruesandora0" \
 -y
